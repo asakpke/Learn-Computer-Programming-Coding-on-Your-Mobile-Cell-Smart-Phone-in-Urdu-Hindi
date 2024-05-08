@@ -1,0 +1,21 @@
+<script>
+for (var row = 1;row < 10;row++)
+{
+    for (var col = 1;col <= row; col++)
+    {
+        document.write("*")
+    }
+
+    for (var spa = 9;spa > row;spa--)
+    {
+        document.write("&nbsp;&nbsp;&nbsp;&nbsp")
+    }
+
+    for (var col = 1;col <= row;col++)
+    {
+        document.write("*")
+    }
+
+    document.write("<br>")
+}
+</script>
